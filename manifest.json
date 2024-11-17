@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Sketch Practice",
+    "version": "0.1",
+
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ],
+  
+    "description": "Exercez-vous en dessin grace aux images d'un site",
+  
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["sketch_practice.js"],
+        "css": ["styles.css"]
+      }
+    ]
+  }
+  

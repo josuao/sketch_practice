@@ -1,0 +1,41 @@
+.sketch_practice_params {
+    width: 100vw;
+    background-color: #1b1b1b;
+    color: #f0f0f0;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    z-index: 2147483647;
+    position: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.sketch_pratice_select {
+    color: #1b1b1b;
+}
+
+.sketch_practice_container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.sketch_practice_overlay {
+    background-color: lightgrey;
+    padding : 10px;
+    margin-bottom: 10px;
+    position : fixed;
+    width: 100vw;
+    height : 100vh;
+    z-index: 2147483647;
+    transform: none !important;
+    pointer-events: auto !important;
+    filter: none !important;
+}
+
+.sketch_practice_picture {
+    max-height: 90vh;
+    max-width: 90vw;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    z-index: 2147483647;
+}
